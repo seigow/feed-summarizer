@@ -11,7 +11,7 @@ import treetaggerwrapper
 import pickle
 
 ja_tagger = MeCab.Tagger("-d /usr/local/lib/mecab/dic/ipadic")
-en_tagger = treetaggerwrapper.TreeTagger(TAGLANG='en', TAGDIR='../TreeTagger')
+en_tagger = treetaggerwrapper.TreeTagger(TAGLANG='en', TAGDIR='./TreeTagger')
 
 
 class FeedlyClient():
